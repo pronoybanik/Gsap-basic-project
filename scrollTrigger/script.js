@@ -15,7 +15,8 @@ gsap.from("#page2 h1", {
         scroller: "body",
         markers: true,
         start: "top 50%",
-
+        end: "top 40%",
+        scrub: 3 //  animation showing slow
     }
 })
 
